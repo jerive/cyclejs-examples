@@ -1,0 +1,30 @@
+{
+  "name": "cyclejs-translate-example",
+  "version": "1.0.0",
+  "description": "Quick examples in cyclejs",
+  "scripts": {
+    "start": "node webpack.server.js"
+  },
+  "dependencies": {
+    "@cycle/base": "4.1.1",
+    "@cycle/collection": "0.4.0",
+    "@cycle/dom": "14.0.0",
+    "@cycle/http": "11.2.0",
+    "@cycle/isolate": "1.4.0",
+    "@cycle/xstream-adapter": "3.0.4",
+    "@cycle/xstream-run": "3.1.0",
+    "cyclic-router": "^3.0.1",
+    "history": "^3.2.1",
+    "snabbdom-jsx": "0.3.1",
+    "switch-path": "^1.1.8",
+    "xstream": "7.0.0"
+  },
+  "devDependencies": {
+    "ts-loader": "0.9.5",
+    "typescript": "2.0.6",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-livereload-plugin": "^0.9.0",
+    "yargs": "^6.3.0"
+  }
+}
