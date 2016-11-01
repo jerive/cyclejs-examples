@@ -20,8 +20,7 @@ module.exports = {
   },
   // Add minification
   plugins: [
-    new LivereloadPlugin(),
-    //new webpack.optimize.UglifyJsPlugin()
+    new LivereloadPlugin()
   ],
   module: {
     loaders: [
