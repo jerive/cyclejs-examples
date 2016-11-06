@@ -6,6 +6,7 @@ var server = new WebpackDevServer(webpack(config), {
     contentBase: '.',
     publicPath: '/assets/',
     compress: true,
+    historyApiFallback: true
 });
 
 server.listen(8080);
